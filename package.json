@@ -1,0 +1,24 @@
+{
+  "name": "es4x",
+  "version": "1.0.0",
+  "private": true,
+  "description": "A bare-bones es4x application",
+  "type": "commonjs",
+  "main": "index.js",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@vertx/core": "4.2.7",
+    "@vertx/service-discovery": "^4.2.7"
+  },
+  "devDependencies": {
+    "@es4x/create": "0.18.0",
+    "@vertx/unit": "4.2.7"
+  },
+  "scripts": {
+    "postinstall": "es4x install",
+    "start": "es4x",
+    "test": "es4x test index.test.js"
+  }
+}
