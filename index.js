@@ -2,7 +2,7 @@
 // @ts-check
 
 const { HttpEndpoint, ServiceDiscovery } = require('@vertx/service-discovery')
-const { ServiceDiscoveryOptions } = require('@Vertx/service-discovery/options')
+const { ServiceDiscoveryOptions } = require('@vertx/service-discovery/options')
 
 const discovery = ServiceDiscovery.create(
 vertx,
